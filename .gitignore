@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.sqlite*
+*.db
+*.log
+artifacts/
+state/
+*.zip
+
+.test-state*/

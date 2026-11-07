@@ -1,0 +1,24 @@
+{
+  "version": "m4-local-v1",
+  "label": "SYNTHETIC ANALYST/RESOLVER/SCANNER SCENARIO - NO REAL COMMUNICATIONS",
+  "analyst_id": "demo-analyst",
+  "historical_ticket_at": "2026-11-02T12:00:00Z",
+  "start_at": "2026-11-03T23:54:00Z",
+  "exception_until": "2026-11-10T00:00:00Z",
+  "scenarios": [
+    "Approve part of the evidence-backed OpenSSL proposal and create a new escalation",
+    "Replay the identical synthetic scanner export and suppress an unchanged escalation",
+    "Approve the second already-observed CVE into the same remediation obligation and revise its ticket",
+    "Attach captured real KEV evidence to a seeded historical Log4j ticket and revise urgency/deadline",
+    "Process a synthetic completed reply into Pending Verification only",
+    "Reject partial scanner coverage for closure, then close using subsequent synthetic passing assessments",
+    "Request and explicitly approve an expiring risk exception without marking remediation complete",
+    "Record an owner persists reply without reopening, then reopen on subsequent synthetic positive scanner evidence"
+  ],
+  "evidence_boundaries": [
+    "New CVE means newly included in the approved obligation; the CVE was already present in the M2 dataset",
+    "New exploitation means new to the historical ticket, not newly discovered global exploitation",
+    "Named analyst approval is explicitly simulated by CLI steps, never inferred from a model",
+    "Scanner results are explicit synthetic fixtures, not real scanner tool executions"
+  ]
+}

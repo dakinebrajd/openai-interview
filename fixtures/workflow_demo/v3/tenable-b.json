@@ -1,0 +1,36 @@
+{
+  "format": "synthetic-tenable",
+  "format_version": "1",
+  "synthetic": true,
+  "tenant": "agency-demo",
+  "scan_id": "two-resolver-tenable-B",
+  "exported_at": "2026-11-03T23:00:00Z",
+  "findings": [
+    {
+      "host_uuid": "tenable-DEMO-LNX-B",
+      "hostname": "demo-lnx-b.example.invalid",
+      "component_key": "openssl-upstream-primary",
+      "cve": [
+        "CVE-2022-3602"
+      ],
+      "severity": 3,
+      "plugin_id": "synthetic-B-0",
+      "last_seen": "2026-11-03T22:00:00Z",
+      "scanner_text": "SYNTHETIC observation. Applicability requires separately reviewed synthetic assumption.",
+      "discovered_at": "2026-11-03T22:00:00Z"
+    },
+    {
+      "host_uuid": "tenable-DEMO-LNX-B",
+      "hostname": "demo-lnx-b.example.invalid",
+      "component_key": "openssl-upstream-primary",
+      "cve": [
+        "CVE-2022-3786"
+      ],
+      "severity": 3,
+      "plugin_id": "synthetic-B-1",
+      "last_seen": "2026-11-03T22:00:00Z",
+      "scanner_text": "SYNTHETIC observation. Applicability requires separately reviewed synthetic assumption.",
+      "discovered_at": "2026-11-03T22:00:00Z"
+    }
+  ]
+}

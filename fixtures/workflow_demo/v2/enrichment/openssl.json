@@ -1,0 +1,21 @@
+{
+  "id": "openssl",
+  "url": "https://openssl-library.org/news/secadv/20221101.txt",
+  "final_url": "https://openssl-library.org/news/secadv/20221101.txt",
+  "kind": "Vendor",
+  "fetch_status": "Success",
+  "retrieved_at": "2026-11-03T23:53:26.641723Z",
+  "expires_at": "2026-12-03T23:53:26.641723Z",
+  "content_sha256": "5cb2b9303c509e672bf24aa42edc3cd019bd09f4861c6b73212a378cfd29a0a0",
+  "body": "OpenSSL Security Advisory [01 November 2022]\n============================================\n\nX.509 Email Address 4-byte Buffer Overflow (CVE-2022-3602)\n==========================================================\n\nSeverity: High\n\nA buffer overrun can be triggered in X.509 certificate verification,\nspecifically in name constraint checking. Note that this occurs\nafter certificate chain signature verification and requires either a\nCA to have signed the malicious certificate or for the application to\ncontinue certificate verification despite failure to construct a path\nto a trusted issuer. An attacker can craft a malicious email address\nto overflow four attacker-controlled bytes on the stack. This buffer\noverflow could result in a crash (causing a denial of service) or\npotentially remote code execution.\n\nMany platforms implement stack overflow protections which would mitigate\nagainst the risk of remote code execution. The risk may be further\nmitigated based on stack layout for any given platform/compiler.\n\nPre-announcements of CVE-2022-3602 described this issue as CRITICAL.\nFurther analysis based on some of the mitigating factors described above\nhave led this to be downgraded to HIGH. Users are still encouraged to\nupgrade to a new version as soon as possible.\n\nIn a TLS client, this can be triggered by connecting to a malicious\nserver. In a TLS server, this can be triggered if the server requests\nclient authentication and a malicious client connects.\n\nOpenSSL versions 3.0.0 to 3.0.6 are vulnerable to this issue.\n\nOpenSSL 3.0 users should upgrade to OpenSSL 3.0.7.\n\nOpenSSL 1.1.1 and 1.0.2 are not affected by this issue.\n\nThis issue was reported to OpenSSL on 17th October 2022 by Polar Bear.\nThe fixes were developed by Dr Paul Dale.\n\nWe are not aware of any working exploit that could lead to code execution,\nand we have no evidence of this issue being exploited as of the time of\nrelease of this advisory (November 1st 2022).\n\nX.509 Email Address Variable Length Buffer Overflow (CVE-2022-3786)\n===================================================================\n\nSeverity: High\n\nA buffer overrun can be triggered in X.509 certificate verification,\nspecifically in name constraint checking. Note that this occurs after\ncertificate chain signature verification and requires either a CA to\nhave signed a malicious certificate or for an application to continue\ncertificate verification despite failure to construct a path to a trusted\nissuer. An attacker can craft a malicious email address in a certificate\nto overflow an arbitrary number of bytes containing the `.' character\n(decimal 46) on the stack. This buffer overflow could result in a crash\n(causing a denial of service).\n\nIn a TLS client, this can be triggered by connecting to a malicious\nserver. In a TLS server, this can be triggered if the server requests\nclient authentication and a malicious client connects.\n\nOpenSSL versions 3.0.0 to 3.0.6 are vulnerable to this issue.\n\nOpenSSL 3.0 users should upgrade to OpenSSL 3.0.7.\n\nOpenSSL 1.1.1 and 1.0.2 are not affected by this issue.\n\nThis issue was discovered on 18th October 2022 by Viktor Dukhovni while\nresearching CVE-2022-3602. The fixes were developed by Dr Paul Dale.\n\nWe have no evidence of this issue being exploited as of the time of\nrelease of this advisory (November 1st 2022).\n\nReferences\n==========\n\nURL for this Security Advisory:\nhttps://www.openssl.org/news/secadv/20221101.txt\n\nNote: the online version of the advisory may be updated with additional details\nover time.\n\nFor details of OpenSSL severity classifications please see:\nhttps://www.openssl.org/policies/secpolicy.html\n",
+  "attempts": [
+    {
+      "attempt": 1,
+      "attempted_at": "2026-11-03T23:53:26.641723Z",
+      "outcome": "Success"
+    }
+  ],
+  "error": null,
+  "confidence": "primary_source",
+  "published_at": null
+}

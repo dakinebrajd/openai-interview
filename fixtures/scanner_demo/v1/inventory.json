@@ -1,0 +1,670 @@
+{
+  "applicability": "Unknown for all synthetic installations; no confirmed remediation equivalence",
+  "assets": [
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-001",
+        "Tenable": "tenable-WIN-SRV-001"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-001/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "shared-name.agency.example.invalid",
+      "key": "WIN-SRV-001",
+      "owner_key": "owner-1",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-002",
+        "Tenable": "tenable-WIN-SRV-002"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-002/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "shared-name.agency.example.invalid",
+      "key": "WIN-SRV-002",
+      "owner_key": "owner-2",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-003",
+        "Tenable": "tenable-WIN-SRV-003"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-003/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-003.agency.example.invalid",
+      "key": "WIN-SRV-003",
+      "owner_key": "owner-3",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-004",
+        "Tenable": "tenable-WIN-SRV-004"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-004/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-004.agency.example.invalid",
+      "key": "WIN-SRV-004",
+      "owner_key": "owner-4",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-005",
+        "Tenable": "tenable-WIN-SRV-005"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-005/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-005.agency.example.invalid",
+      "key": "WIN-SRV-005",
+      "owner_key": "owner-5",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-006",
+        "Tenable": "tenable-WIN-SRV-006"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-006/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-006.agency.example.invalid",
+      "key": "WIN-SRV-006",
+      "owner_key": "owner-6",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-007",
+        "Tenable": "tenable-WIN-SRV-007"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-007/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-007.agency.example.invalid",
+      "key": "WIN-SRV-007",
+      "owner_key": "owner-1",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WIN-SRV-008",
+        "Tenable": "tenable-WIN-SRV-008"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "windows-assessment",
+          "location": "synthetic://WIN-SRV-008/primary",
+          "product": "Synthetic Windows server assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "win-srv-008.agency.example.invalid",
+      "key": "WIN-SRV-008",
+      "owner_key": "owner-2",
+      "resolver_group": "group-1",
+      "type": "Windows server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-001",
+        "Tenable": "tenable-LNX-SRV-001"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-001/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-001.agency.example.invalid",
+      "key": "LNX-SRV-001",
+      "owner_key": "owner-3",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-002",
+        "Tenable": "tenable-LNX-SRV-002"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-002/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-002.agency.example.invalid",
+      "key": "LNX-SRV-002",
+      "owner_key": "owner-4",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-003",
+        "Tenable": "tenable-LNX-SRV-003"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-003/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-003.agency.example.invalid",
+      "key": "LNX-SRV-003",
+      "owner_key": "owner-5",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-004",
+        "Tenable": "tenable-LNX-SRV-004"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-004/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-004.agency.example.invalid",
+      "key": "LNX-SRV-004",
+      "owner_key": "owner-6",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-005",
+        "Tenable": "tenable-LNX-SRV-005"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-005/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-005.agency.example.invalid",
+      "key": "LNX-SRV-005",
+      "owner_key": "owner-1",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-006",
+        "Tenable": "tenable-LNX-SRV-006"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-006/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-006.agency.example.invalid",
+      "key": "LNX-SRV-006",
+      "owner_key": "owner-2",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-007",
+        "Tenable": "tenable-LNX-SRV-007"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-007/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-007.agency.example.invalid",
+      "key": "LNX-SRV-007",
+      "owner_key": "owner-3",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-LNX-SRV-008",
+        "Tenable": "tenable-LNX-SRV-008"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "linux-assessment",
+          "location": "synthetic://LNX-SRV-008/primary",
+          "product": "Synthetic Linux server assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "lnx-srv-008.agency.example.invalid",
+      "key": "LNX-SRV-008",
+      "owner_key": "owner-4",
+      "resolver_group": "group-2",
+      "type": "Linux server"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-001",
+        "Tenable": "tenable-WS-001"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-001/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-001.agency.example.invalid",
+      "key": "WS-001",
+      "owner_key": "owner-5",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-002",
+        "Tenable": "tenable-WS-002"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-002/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-002.agency.example.invalid",
+      "key": "WS-002",
+      "owner_key": "owner-6",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-003",
+        "Tenable": "tenable-WS-003"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-003/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-003.agency.example.invalid",
+      "key": "WS-003",
+      "owner_key": "owner-1",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-004",
+        "Tenable": "tenable-WS-004"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-004/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-004.agency.example.invalid",
+      "key": "WS-004",
+      "owner_key": "owner-2",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-005",
+        "Tenable": "tenable-WS-005"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-005/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-005.agency.example.invalid",
+      "key": "WS-005",
+      "owner_key": "owner-3",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-006",
+        "Tenable": "tenable-WS-006"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-006/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-006.agency.example.invalid",
+      "key": "WS-006",
+      "owner_key": "owner-4",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-007",
+        "Tenable": "tenable-WS-007"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-007/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-007.agency.example.invalid",
+      "key": "WS-007",
+      "owner_key": "owner-5",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WS-008",
+        "Tenable": "tenable-WS-008"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "desktop-assessment",
+          "location": "synthetic://WS-008/primary",
+          "product": "Synthetic Workstation assessment target"
+        }
+      ],
+      "criticality": "Medium",
+      "hostname": "ws-008.agency.example.invalid",
+      "key": "WS-008",
+      "owner_key": "owner-6",
+      "resolver_group": "group-3",
+      "type": "Workstation"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-001",
+        "Tenable": "tenable-WEB-001"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-001/primary",
+          "product": "Synthetic Web application assessment target"
+        },
+        {
+          "installed_version": null,
+          "key": "java-assessment-second-instance",
+          "location": "synthetic://WEB-001/secondary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-001.agency.example.invalid",
+      "key": "WEB-001",
+      "owner_key": "owner-1",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-002",
+        "Tenable": "tenable-WEB-002"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-002/primary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-002.agency.example.invalid",
+      "key": "WEB-002",
+      "owner_key": "owner-2",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-003",
+        "Tenable": "tenable-WEB-003"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-003/primary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-003.agency.example.invalid",
+      "key": "WEB-003",
+      "owner_key": "owner-3",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-004",
+        "Tenable": "tenable-WEB-004"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-004/primary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-004.agency.example.invalid",
+      "key": "WEB-004",
+      "owner_key": "owner-4",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-005",
+        "Tenable": "tenable-WEB-005"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-005/primary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-005.agency.example.invalid",
+      "key": "WEB-005",
+      "owner_key": "owner-5",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    },
+    {
+      "aliases": {
+        "Defender": "defender-WEB-006",
+        "Tenable": "tenable-WEB-006"
+      },
+      "components": [
+        {
+          "installed_version": null,
+          "key": "java-assessment",
+          "location": "synthetic://WEB-006/primary",
+          "product": "Synthetic Web application assessment target"
+        }
+      ],
+      "criticality": "High",
+      "hostname": "web-006.agency.example.invalid",
+      "key": "WEB-006",
+      "owner_key": "owner-6",
+      "resolver_group": "group-4",
+      "type": "Web application"
+    }
+  ],
+  "label": "SYNTHETIC hypothetical state agency",
+  "owners": [
+    {
+      "email": "owner-1@agency.example.invalid",
+      "key": "owner-1",
+      "name": "Synthetic Agency Owner 1"
+    },
+    {
+      "email": "owner-2@agency.example.invalid",
+      "key": "owner-2",
+      "name": "Synthetic Agency Owner 2"
+    },
+    {
+      "email": "owner-3@agency.example.invalid",
+      "key": "owner-3",
+      "name": "Synthetic Agency Owner 3"
+    },
+    {
+      "email": "owner-4@agency.example.invalid",
+      "key": "owner-4",
+      "name": "Synthetic Agency Owner 4"
+    },
+    {
+      "email": "owner-5@agency.example.invalid",
+      "key": "owner-5",
+      "name": "Synthetic Agency Owner 5"
+    },
+    {
+      "email": "owner-6@agency.example.invalid",
+      "key": "owner-6",
+      "name": "Synthetic Agency Owner 6"
+    }
+  ],
+  "resolver_groups": [
+    {
+      "email": "group-1@agency.example.invalid",
+      "key": "group-1",
+      "name": "Windows Operations"
+    },
+    {
+      "email": "group-2@agency.example.invalid",
+      "key": "group-2",
+      "name": "Linux Operations"
+    },
+    {
+      "email": "group-3@agency.example.invalid",
+      "key": "group-3",
+      "name": "Endpoint Services"
+    },
+    {
+      "email": "group-4@agency.example.invalid",
+      "key": "group-4",
+      "name": "Digital Services"
+    }
+  ],
+  "review_hints": [
+    "Multiple CVEs on the same Java/OpenSSL assessment target are review candidates only"
+  ],
+  "schema_version": "1"
+}

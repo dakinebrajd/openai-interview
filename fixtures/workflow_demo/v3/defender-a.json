@@ -1,0 +1,32 @@
+{
+  "format": "synthetic-defender",
+  "format_version": "1",
+  "synthetic": true,
+  "tenantId": "agency-demo",
+  "scanId": "two-resolver-defender-A",
+  "exportedAt": "2026-11-03T23:00:00Z",
+  "value": [
+    {
+      "deviceId": "defender-DEMO-LNX-A",
+      "deviceName": "demo-lnx-a.example.invalid",
+      "softwareKey": "openssl-upstream-primary",
+      "cveId": "CVE-2022-3602",
+      "severity": "High",
+      "findingId": "synthetic-A-0",
+      "detectedAt": "2026-11-03T22:30:00Z",
+      "scannerText": "SYNTHETIC observation. No scanner-confirmed version or remediation.",
+      "discovered_at": "2026-11-03T22:00:00Z"
+    },
+    {
+      "deviceId": "defender-DEMO-LNX-A",
+      "deviceName": "demo-lnx-a.example.invalid",
+      "softwareKey": "openssl-upstream-primary",
+      "cveId": "CVE-2022-3786",
+      "severity": "High",
+      "findingId": "synthetic-A-1",
+      "detectedAt": "2026-11-03T22:30:00Z",
+      "scannerText": "SYNTHETIC observation. No scanner-confirmed version or remediation.",
+      "discovered_at": "2026-11-03T22:00:00Z"
+    }
+  ]
+}

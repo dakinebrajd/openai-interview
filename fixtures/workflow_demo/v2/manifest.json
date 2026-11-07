@@ -1,0 +1,22 @@
+{
+  "version": "two-resolver-demo-v2",
+  "synthetic": true,
+  "files": {
+    "defender-a.json": "6f408ab7172f0a8f100b5872bcfdd045dab47c6584e5927ce1b6288207496107",
+    "defender-b.json": "d76f2a20d8731f8c28782a06eec259bc3e2ac437f8976db6a92af385b46fd746",
+    "inventory.json": "e76c2f71366fcc11fe2e8792cb361a9711bf99e53d2b0003b112a42c4febfc2d",
+    "tenable-a.json": "c9c8dc2a8834497102af1cc9c9faa96b588a0ed15ae76521f5632f9adddffccf",
+    "tenable-b.json": "a93719ae38cc90f000e4192efddf29f9976cb9712e8e125028f6434a53f06f24"
+  },
+  "expected": {
+    "raw_observations": 8,
+    "unique_obligations": 4,
+    "consolidated_links": 4,
+    "quarantines": 0,
+    "tickets": 2,
+    "members_per_ticket": 2
+  },
+  "warning": "Historical 2022 OpenSSL advisory and explicit synthetic upstream3.0.6 applicability; 3.0.7 is not a current deployment recommendation. Four imports and two distinct component runs require explicit approvals.",
+  "enrichment_manifest_sha256": "243bb0ac8c56552443fc7c6e6b14461680e86c3b2c0a6aabd1a17594b47b5bce",
+  "synthetic_observation_clock": "2026-11-03T22:00:00Z/22:30:00Z; exported23:00Z before retained replay clock23:54Z"
+}

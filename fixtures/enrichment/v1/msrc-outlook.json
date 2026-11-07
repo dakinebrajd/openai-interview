@@ -1,0 +1,21 @@
+{
+  "id": "msrc-outlook",
+  "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397",
+  "final_url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397",
+  "kind": "Vendor",
+  "fetch_status": "Success",
+  "retrieved_at": "2026-11-03T23:53:29.927483Z",
+  "expires_at": "2026-12-03T23:53:29.927483Z",
+  "content_sha256": "20af6d27a1cd2f151672ddb27a674eb77c6127f0f0bb1296d2e61c166be6736d",
+  "body": "<!doctype html>\n<html lang=\"en\" dir=\"ltr\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <!-- Browser Based Cache Control -->\n    <meta http-equiv=\"Pragma\" content=\"no-cache\" />\n    <meta\n      http-equiv=\"cache-control\"\n      content=\"no-cache, no-store, must-revalidate\"\n    />\n\n    <link rel=\"icon\" href=\"/update-guide/favicon/favicon.svg\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"theme-color\" content=\"#0078d4\" />\n    <meta name=\"color-scheme\" content=\"dark light\" />\n    <!--\n      The description & keywords here are only fallbacks for search engines that \n      don't wait for React to boot up.\n      \n      Don't worry if they aren't in sync with the real ones in the app.\n    -->\n    <meta name=\"description\" />\n    <meta name=\"keywords\" />\n    <link rel=\"apple-touch-icon\" href=\"/favicon/logo192.png\" />\n    <!--\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n    -->\n    <link rel=\"manifest\" href=\"/update-guide/manifest.json\" />\n    <!--\n      Notice that we no longer use %PUBLIC_URL% placeholders.\n      Vite handles asset references automatically based on the base configuration.\n      Assets in the public folder are served from the root of the base path.\n    -->\n    <title>Security Update Guide - Microsoft Security Response Center</title>\n    <style>\n      @media (prefers-color-scheme: dark) {\n        html {\n          color: whitesmoke;\n          background: black;\n        }\n      }\n    </style>\n    <script type=\"module\" crossorigin src=\"/update-guide/static/js/index.D9J6HcXJ.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/update-guide/static/css/index.DqT3BAOR.css\">\n  </head>\n  <body>\n    <noscript>You need to enable JavaScript to run this app.</noscript>\n    <div id=\"root\"></div>\n\n    <!-- Vite will inject the module script here -->\n\n    <script nomodule>\n      // Polyfilling `endsWith` (for IE11)\n      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith#polyfill\n      // TODO: It would be ideal to co-locate this in '@msrceng/component/lib/InternetExplorer/polyfill',\n      // but that doesn't seem to work.\n      if (!String.prototype.endsWith) {\n        String.prototype.endsWith = function (searchString, endPosition) {\n          if (endPosition === undefined || endPosition > this.length) {\n            endPosition = this.length;\n          }\n          return (\n            this.substring(endPosition - searchString.length, endPosition) ===\n            searchString\n          );\n        };\n      }\n    </script>\n  </body>\n</html>\n",
+  "attempts": [
+    {
+      "attempt": 1,
+      "attempted_at": "2026-11-03T23:53:29.927483Z",
+      "outcome": "Success"
+    }
+  ],
+  "error": null,
+  "confidence": "primary_source",
+  "published_at": null
+}

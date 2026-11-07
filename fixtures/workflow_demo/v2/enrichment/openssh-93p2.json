@@ -1,0 +1,21 @@
+{
+  "id": "openssh-93p2",
+  "url": "https://www.openssh.com/txt/release-9.3p2",
+  "final_url": "https://www.openssh.org/txt/release-9.3p2",
+  "kind": "Vendor",
+  "fetch_status": "Success",
+  "retrieved_at": "2026-11-03T23:53:29.290615Z",
+  "expires_at": "2026-12-03T23:53:29.290615Z",
+  "content_sha256": "cbcba18105a4e032ff98c68cb9c607673345a42223b7f8eead605eff4a490c25",
+  "body": "OpenSSH 9.3p2 was released on 2023-07-19. It is available from the\nmirrors listed at https://www.openssh.com/.\n\nOpenSSH is a 100% complete SSH protocol 2.0 implementation and\nincludes sftp client and server support.\n\nOnce again, we would like to thank the OpenSSH community for their\ncontinued support of the project, especially those who contributed\ncode or patches, reported bugs, tested snapshots or donated to the\nproject. More information on donations may be found at:\nhttps://www.openssh.com/donations.html\n\nChanges since OpenSSH 9.3\n=========================\n\nThis release fixes a security bug.\n\nSecurity\n========\n\nFix CVE-2023-38408 - a condition where specific libraries loaded via\nssh-agent(1)'s PKCS#11 support could be abused to achieve remote\ncode execution via a forwarded agent socket if the following\nconditions are met:\n\n* Exploitation requires the presence of specific libraries on\n  the victim system.\n* Remote exploitation requires that the agent was forwarded\n  to an attacker-controlled system.\n\nExploitation can also be prevented by starting ssh-agent(1) with an\nempty PKCS#11/FIDO allowlist (ssh-agent -P '') or by configuring\nan allowlist that contains only specific provider libraries.\n\nThis vulnerability was discovered and demonstrated to be exploitable\nby the Qualys Security Advisory team. \n \nIn addition to removing the main precondition for exploitation,\nthis release removes the ability for remote ssh-agent(1) clients\nto load PKCS#11 modules by default (see below).\n\nPotentially-incompatible changes\n--------------------------------\n\n * ssh-agent(8): the agent will now refuse requests to load PKCS#11\n   modules issued by remote clients by default. A flag has been added\n   to restore the previous behaviour \"-Oallow-remote-pkcs11\".\n\n   Note that ssh-agent(8) depends on the SSH client to identify\n   requests that are remote. The OpenSSH >=8.9 ssh(1) client does\n   this, but forwarding access to an agent socket using other tools\n   may circumvent this restriction.\n\nChecksums:\n==========\n\n- SHA1 (openssh-9.3p2.tar.gz) = 219cf700c317f400bb20b001c0406056f7188ea4\n- SHA256 (openssh-9.3p2.tar.gz) = IA6+FH9ss/EB/QzfngJEKvfdyimN/9n0VoeOfMrGdug=\n\nPlease note that the SHA256 signatures are base64 encoded and not\nhexadecimal (which is the default for most checksum tools). The PGP\nkey used to sign the releases is available from the mirror sites:\nhttps://cdn.openbsd.org/pub/OpenBSD/OpenSSH/RELEASE_KEY.asc\n\nReporting Bugs:\n===============\n\n- Please read https://www.openssh.com/report.html\n  Security bugs should be reported directly to openssh@openssh.org\n\n\n",
+  "attempts": [
+    {
+      "attempt": 1,
+      "attempted_at": "2026-11-03T23:53:29.290615Z",
+      "outcome": "Success"
+    }
+  ],
+  "error": null,
+  "confidence": "primary_source",
+  "published_at": null
+}

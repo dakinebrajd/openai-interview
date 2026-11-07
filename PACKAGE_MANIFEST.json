@@ -1,0 +1,942 @@
+{
+  "status": "Migration input only; portable Replay startup and PostgreSQL unimplemented",
+  "validation": {
+    "final_selected_tests": 139,
+    "result": "passed",
+    "elapsed_seconds": 20.92,
+    "fixture_file_hashes_checked": 66,
+    "hosted_linux_postgres_tests": "not run"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 160,
+      "sha256": "3ffca8b7ec7234a78b17eb127b0b3dede9d8164546a476247ee802857f51bdef"
+    },
+    {
+      "path": ".replit",
+      "bytes": 23,
+      "sha256": "f1a59a82ffbc434d622da484e2c7be71582faef86f241f9a2846f08b00dc3e08"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1386,
+      "sha256": "e6446793d07f71cc377b9ac5e52370ca867e3a675194b7a8a3d6988789e9398e"
+    },
+    {
+      "path": "app.py",
+      "bytes": 289,
+      "sha256": "123e802cecfc218f96da62adaf69fa81bd3c4193938e80a844de635348476299"
+    },
+    {
+      "path": "audit_tools/approved_live_driver.py",
+      "bytes": 6258,
+      "sha256": "a3dc0c9d4de22ecf16e8b3a69c890d4e28ed2556d126253af77cbb9701108ec9"
+    },
+    {
+      "path": "audit_tools/m7_usage_guard.py",
+      "bytes": 2324,
+      "sha256": "fb53e97253df3c0f0080f80e77b08ea3c82b42795f7c19127b925577f070e8bb"
+    },
+    {
+      "path": "BASELINE_PROVENANCE.md",
+      "bytes": 1798,
+      "sha256": "121228028c2738f75c75131466457d18ffdbfb7979b6843deecef41f67d0f1bb"
+    },
+    {
+      "path": "fixtures/enrichment/v1/apache.json",
+      "bytes": 133395,
+      "sha256": "a1b128befc9bd3dd14707fadfbfff70ac4f52f6b4743a4f91e426ec76bec8942"
+    },
+    {
+      "path": "fixtures/enrichment/v1/curl.json",
+      "bytes": 15087,
+      "sha256": "0331b4451cf7889599bbe0396e1d0e6f5f47c26ad74b966a5fe65e964f713bfd"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-34527.json",
+      "bytes": 16321,
+      "sha256": "6849da1c75dab195ea8b595c6f032b68b1d0cedede7e1be7619c638148512148"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-4034.json",
+      "bytes": 5948,
+      "sha256": "5afce411bbbabf097a20443389becb82d993d8e1c5a8f12598b2bc49bdfac999"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-44228.json",
+      "bytes": 20267,
+      "sha256": "7f66c59992f60b8a2a85aa6c6297954da92dd35483911cf02550128abb4c3bb2"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-44832.json",
+      "bytes": 12860,
+      "sha256": "f08aaf014dd58f25bbc03d0babef0e80f80763d93f2755a41077b4f872cd4cff"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-45046.json",
+      "bytes": 16701,
+      "sha256": "be7659a6661a81cdad6e7dc8c5e46cca546c7069b6645fa1444aa10c236f9472"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2021-45105.json",
+      "bytes": 13151,
+      "sha256": "b3d70d2f46c2c0c256fa844ecb45c79ec2afe5f768237e976048edad69eae0eb"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2022-3602.json",
+      "bytes": 26491,
+      "sha256": "5125c5708b8bc95ad94e592703258a1b4be2376ba992f4e90523262d47c2398a"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2022-3786.json",
+      "bytes": 7932,
+      "sha256": "5bb8bd293bdf62037af03b7ca7cf5f8eda826c4c9d6e94efc09768773abe7b71"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2023-23397.json",
+      "bytes": 5705,
+      "sha256": "8f2cd5a1958b323b8ac3274ac5ce855380c3f700b8af3ca4316c538dbcea8492"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2023-38408.json",
+      "bytes": 10020,
+      "sha256": "4f0d847b0f10759486e01cad593b0ca7227b6c4a03e69d6bf0c41dab3a447e11"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2023-38545.json",
+      "bytes": 7872,
+      "sha256": "e9203a70e35ccc67dfd032c0edc7745fad392c69a69737969cc96863a70bae49"
+    },
+    {
+      "path": "fixtures/enrichment/v1/CVE-2024-6387.json",
+      "bytes": 22876,
+      "sha256": "bee58c23f5086a88162b9fbe555dbf649c21f3f632b2a3da9d9edbe4d1a20139"
+    },
+    {
+      "path": "fixtures/enrichment/v1/epss.json",
+      "bytes": 2391,
+      "sha256": "d1361a0b899c6e3486902c745af2665d34017faae4c8396d40a2fa9404843081"
+    },
+    {
+      "path": "fixtures/enrichment/v1/kev-cisa.json",
+      "bytes": 1960954,
+      "sha256": "a1179458106077795df33a9c150acd40c0b45d18e3240867f27dca7d6353ad91"
+    },
+    {
+      "path": "fixtures/enrichment/v1/kev-mirror.json",
+      "bytes": 1960974,
+      "sha256": "9643b94ed9fb13c13970cda3761706b515dbed4ec56b0232dd336a24869f085b"
+    },
+    {
+      "path": "fixtures/enrichment/v1/manifest.json",
+      "bytes": 3400,
+      "sha256": "08434ddea46d3a4cf69732a9a0883a0b20dbcc5f1f57c4827a6b0c4127351fa2"
+    },
+    {
+      "path": "fixtures/enrichment/v1/msrc-outlook.json",
+      "bytes": 3511,
+      "sha256": "97061a1a6872be86f4d0d25795ebfc3ab5819552ce2342aaf8677b0fd0a8d0b9"
+    },
+    {
+      "path": "fixtures/enrichment/v1/msrc-print.json",
+      "bytes": 3509,
+      "sha256": "99eca936bccedcd1f4613674fe388afa0df0a0a4f6e4a19f984dcf2f0205e21f"
+    },
+    {
+      "path": "fixtures/enrichment/v1/openssh-93p2.json",
+      "bytes": 3283,
+      "sha256": "18acadbd5dbcec820befd24750d339f3a2a361a4d250ad2ca466bb4c0a840745"
+    },
+    {
+      "path": "fixtures/enrichment/v1/openssh-98.json",
+      "bytes": 12014,
+      "sha256": "df2d03a9afafcb542193315c957a87ed14a6ba4079d3350aaf3051b0c968b667"
+    },
+    {
+      "path": "fixtures/enrichment/v1/openssl.json",
+      "bytes": 4347,
+      "sha256": "6395e27dc7bd419dd62918ddaee1f5f6c786f08450df4139efeac17b4dc859ca"
+    },
+    {
+      "path": "fixtures/enrichment/v1/README.md",
+      "bytes": 6064,
+      "sha256": "9e53d9aa35bb248737d6e42882c3389cb3d0a4c3eec5cadccadc95a33fcf1913"
+    },
+    {
+      "path": "fixtures/enrichment/v1/redhat-pkexec.json",
+      "bytes": 247218,
+      "sha256": "ff3e8992544abfd55c9e4bbb8c8925b36a0612a83b79201920bb2e7e209dbd82"
+    },
+    {
+      "path": "fixtures/enrichment/v1/replay.json",
+      "bytes": 25052,
+      "sha256": "cd0764d2ed430f25298f23470e5a1d5174769e78d9c759649037ae1a3e223100"
+    },
+    {
+      "path": "fixtures/enrichment/v1/sdk-docs.json",
+      "bytes": 470149,
+      "sha256": "70e90d18704520623003c7f4fec5834b7f89995cf13ae7754578d503359c4a66"
+    },
+    {
+      "path": "fixtures/enrichment/v1/sector-log4j.json",
+      "bytes": 85551,
+      "sha256": "bfc87524c20d96377affd25d3913846ad1c14126896735b06ac02d9efe3c2b65"
+    },
+    {
+      "path": "fixtures/lifecycle/v1/README.md",
+      "bytes": 5680,
+      "sha256": "bd8d9f119828b531e5a4951115285f667d8effb8f648f1acc5b5f4f6955bb280"
+    },
+    {
+      "path": "fixtures/lifecycle/v1/scenario.json",
+      "bytes": 1521,
+      "sha256": "7375e8b23043beb183341565307cc43f3ce72210a053938617a7a98383e11fe7"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/cve_sources.json",
+      "bytes": 20412,
+      "sha256": "e5b46f0de0fadaccf70b6bd5eb76c719c2dae283e85cc8f6f61ce64b45dcaea5"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/defender.json",
+      "bytes": 16271,
+      "sha256": "3d930c2d134bbfb72a18bca42d3bb9c232700ee34dfebc48f67465c0b02b4a79"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/inventory.json",
+      "bytes": 19659,
+      "sha256": "c7222ca5f6b60a29be33ccb7430492abe6b82c9f4d14031df71c70a6d07aebfc"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/manifest.json",
+      "bytes": 1101,
+      "sha256": "8b902a4e0c91730d085192fb127a35db06fa7c6634236983c58dbb4194770881"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/README.md",
+      "bytes": 3936,
+      "sha256": "d4ddeb1413e3948b238381c21b750abb7f2e38f41fc050cedf6556b3da6eca71"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/tenable.json",
+      "bytes": 14165,
+      "sha256": "80ac84b7ba7f98d424fd1873efcb7c12cb75e3513b15ab74e839071a82c0d0a2"
+    },
+    {
+      "path": "fixtures/scanner_demo/v1/tenable_repeat.json",
+      "bytes": 14165,
+      "sha256": "80ac84b7ba7f98d424fd1873efcb7c12cb75e3513b15ab74e839071a82c0d0a2"
+    },
+    {
+      "path": "fixtures/threat/v1/cisa-federal-log4j.json",
+      "bytes": 703,
+      "sha256": "3c55b820d623bbed38c2a07bbd566f9fa19c53cac22998d00485ebf1a57b8354"
+    },
+    {
+      "path": "fixtures/threat/v1/manifest.json",
+      "bytes": 1291,
+      "sha256": "7244c527b81974743438fe21b723ba4ab44a114997c4a896608f8f5ecdbafd9b"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/defender-a.json",
+      "bytes": 1002,
+      "sha256": "6f408ab7172f0a8f100b5872bcfdd045dab47c6584e5927ce1b6288207496107"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/defender-b.json",
+      "bytes": 1004,
+      "sha256": "d76f2a20d8731f8c28782a06eec259bc3e2ac437f8976db6a92af385b46fd746"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/apache.json",
+      "bytes": 133395,
+      "sha256": "a1b128befc9bd3dd14707fadfbfff70ac4f52f6b4743a4f91e426ec76bec8942"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/curl.json",
+      "bytes": 15087,
+      "sha256": "0331b4451cf7889599bbe0396e1d0e6f5f47c26ad74b966a5fe65e964f713bfd"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-34527.json",
+      "bytes": 16321,
+      "sha256": "6849da1c75dab195ea8b595c6f032b68b1d0cedede7e1be7619c638148512148"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-4034.json",
+      "bytes": 5948,
+      "sha256": "5afce411bbbabf097a20443389becb82d993d8e1c5a8f12598b2bc49bdfac999"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-44228.json",
+      "bytes": 20267,
+      "sha256": "7f66c59992f60b8a2a85aa6c6297954da92dd35483911cf02550128abb4c3bb2"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-44832.json",
+      "bytes": 12860,
+      "sha256": "f08aaf014dd58f25bbc03d0babef0e80f80763d93f2755a41077b4f872cd4cff"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-45046.json",
+      "bytes": 16701,
+      "sha256": "be7659a6661a81cdad6e7dc8c5e46cca546c7069b6645fa1444aa10c236f9472"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2021-45105.json",
+      "bytes": 13151,
+      "sha256": "b3d70d2f46c2c0c256fa844ecb45c79ec2afe5f768237e976048edad69eae0eb"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2022-3602.json",
+      "bytes": 26491,
+      "sha256": "5125c5708b8bc95ad94e592703258a1b4be2376ba992f4e90523262d47c2398a"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2022-3786.json",
+      "bytes": 7932,
+      "sha256": "5bb8bd293bdf62037af03b7ca7cf5f8eda826c4c9d6e94efc09768773abe7b71"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2023-23397.json",
+      "bytes": 5705,
+      "sha256": "8f2cd5a1958b323b8ac3274ac5ce855380c3f700b8af3ca4316c538dbcea8492"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2023-38408.json",
+      "bytes": 10020,
+      "sha256": "4f0d847b0f10759486e01cad593b0ca7227b6c4a03e69d6bf0c41dab3a447e11"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2023-38545.json",
+      "bytes": 7872,
+      "sha256": "e9203a70e35ccc67dfd032c0edc7745fad392c69a69737969cc96863a70bae49"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/CVE-2024-6387.json",
+      "bytes": 22876,
+      "sha256": "bee58c23f5086a88162b9fbe555dbf649c21f3f632b2a3da9d9edbe4d1a20139"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/epss.json",
+      "bytes": 2391,
+      "sha256": "d1361a0b899c6e3486902c745af2665d34017faae4c8396d40a2fa9404843081"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/kev-cisa.json",
+      "bytes": 1960954,
+      "sha256": "a1179458106077795df33a9c150acd40c0b45d18e3240867f27dca7d6353ad91"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/kev-mirror.json",
+      "bytes": 1960974,
+      "sha256": "9643b94ed9fb13c13970cda3761706b515dbed4ec56b0232dd336a24869f085b"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/manifest.json",
+      "bytes": 3415,
+      "sha256": "700999a03ae6d165c596602dadaf932e5b5d42f676f5b123829880207cb8bcba"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/msrc-outlook.json",
+      "bytes": 3511,
+      "sha256": "97061a1a6872be86f4d0d25795ebfc3ab5819552ce2342aaf8677b0fd0a8d0b9"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/msrc-print.json",
+      "bytes": 3509,
+      "sha256": "99eca936bccedcd1f4613674fe388afa0df0a0a4f6e4a19f984dcf2f0205e21f"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/openssh-93p2.json",
+      "bytes": 3283,
+      "sha256": "18acadbd5dbcec820befd24750d339f3a2a361a4d250ad2ca466bb4c0a840745"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/openssh-98.json",
+      "bytes": 12014,
+      "sha256": "df2d03a9afafcb542193315c957a87ed14a6ba4079d3350aaf3051b0c968b667"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/openssl.json",
+      "bytes": 4347,
+      "sha256": "6395e27dc7bd419dd62918ddaee1f5f6c786f08450df4139efeac17b4dc859ca"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/README.md",
+      "bytes": 6064,
+      "sha256": "9e53d9aa35bb248737d6e42882c3389cb3d0a4c3eec5cadccadc95a33fcf1913"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/redhat-pkexec.json",
+      "bytes": 247218,
+      "sha256": "ff3e8992544abfd55c9e4bbb8c8925b36a0612a83b79201920bb2e7e209dbd82"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/replay.json",
+      "bytes": 25353,
+      "sha256": "3ac4329032d496fa20e43346c8b8c5c1f11055df4cbf0db9eea9aa9c5b9e3c8e"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/sdk-docs.json",
+      "bytes": 470149,
+      "sha256": "70e90d18704520623003c7f4fec5834b7f89995cf13ae7754578d503359c4a66"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/sector-log4j.json",
+      "bytes": 85551,
+      "sha256": "bfc87524c20d96377affd25d3913846ad1c14126896735b06ac02d9efe3c2b65"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/inventory.json",
+      "bytes": 1871,
+      "sha256": "e76c2f71366fcc11fe2e8792cb361a9711bf99e53d2b0003b112a42c4febfc2d"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/manifest.json",
+      "bytes": 1168,
+      "sha256": "0a861c8011c159dc408c50e278f2c768bf07693d5bbaddbaffd364d390594222"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/README.md",
+      "bytes": 421,
+      "sha256": "09e35277ecf2c40863f595b1a344304abcfe20a1a6aa6442726e0f6a88baeb15"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/tenable-a.json",
+      "bytes": 1069,
+      "sha256": "c9c8dc2a8834497102af1cc9c9faa96b588a0ed15ae76521f5632f9adddffccf"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/tenable-b.json",
+      "bytes": 1069,
+      "sha256": "a93719ae38cc90f000e4192efddf29f9976cb9712e8e125028f6434a53f06f24"
+    },
+    {
+      "path": "fixtures/workflow_demo/v3/defender-a.json",
+      "bytes": 1098,
+      "sha256": "a9189eb17fab7b41d9dd3bd8acbd43a4b2643d5296f969e1210a270017583fbf"
+    },
+    {
+      "path": "fixtures/workflow_demo/v3/defender-b.json",
+      "bytes": 1100,
+      "sha256": "2e1933027336182a6cbb11fb897a85763b98617b73215562285e4fc338ae19c2"
+    },
+    {
+      "path": "fixtures/workflow_demo/v3/manifest.json",
+      "bytes": 599,
+      "sha256": "8d702d84bee85621bfd5f40539351bb694172a91d572b6e8992666471cf61e0b"
+    },
+    {
+      "path": "fixtures/workflow_demo/v3/tenable-a.json",
+      "bytes": 1165,
+      "sha256": "ad18582013b3c948235bd22b81d4498958a7d3e2c42c8cbdf14d1862c8733602"
+    },
+    {
+      "path": "fixtures/workflow_demo/v3/tenable-b.json",
+      "bytes": 1165,
+      "sha256": "c755038f2002f7715100e03364c5e5c13b1f05bc94f6fff27e11ad955d3b6a18"
+    },
+    {
+      "path": "pytest.ini",
+      "bytes": 60,
+      "sha256": "615c40a458d63562419d861cb33a96360daacbb059e3e92d5479c45ae902276d"
+    },
+    {
+      "path": "READINESS.md",
+      "bytes": 2093,
+      "sha256": "a510d4bdef28b80c1056a58be27db7a9ff6527052bf758d2677fce6d0abb1c18"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1823,
+      "sha256": "677e1797809136a9e96756213b6d2edf4f30db9fad362133452e7066f8cff4a1"
+    },
+    {
+      "path": "REPLIT_HANDOFF.md",
+      "bytes": 6328,
+      "sha256": "c0dfdf152c0fa5f682a8141e9bd34c54b48c051675aeb61f6f2b2d745db7d5af"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 352,
+      "sha256": "9ccef14200a61a41c8ad065ef7c37a9e1ed74d22332606d269c98986276a4eec"
+    },
+    {
+      "path": "SECURITY_SCAN.json",
+      "bytes": 893,
+      "sha256": "591ce2e19db6265dfe32631745a1939fb4cc05b223d007ffcf5a8bdecece572b"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 55874,
+      "sha256": "8c8d3121caa493b57431b069ce7de89fc732a238b5fa7b6526db54816b3f75f5"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 3653,
+      "sha256": "4bbb71ab3c87016322b5f12ad8cea37cf92ddd8721ca01c200a62b7b12f2974b"
+    },
+    {
+      "path": "tests/test_foundation.py",
+      "bytes": 29250,
+      "sha256": "53e9708f018731148b91182853fce89a0d3c16c85745af09e179d292e8fa46d7"
+    },
+    {
+      "path": "tests/test_migration_safety.py",
+      "bytes": 1304,
+      "sha256": "37a5b28ecd79fb12a391514df00280c97224bf353493d0f2e87a1e6b41c4ce65"
+    },
+    {
+      "path": "tests/test_scanner_ingestion.py",
+      "bytes": 17469,
+      "sha256": "e465816e5fa7f5d7398b07fd63ba0b66398474c4fc54da990e800d84c07de5a4"
+    },
+    {
+      "path": "vulnmgmt/__init__.py",
+      "bytes": 74,
+      "sha256": "6c3784e6ffaba285ba637a53f6eb127f7c52c762daac308ed18e43c2bcdc89e6"
+    },
+    {
+      "path": "vulnmgmt/agent0.py",
+      "bytes": 23830,
+      "sha256": "ac265c46737056e2cdb74322459de00748ebf3899022ed747f0ff6d4836e0127"
+    },
+    {
+      "path": "vulnmgmt/agent2_sdk.py",
+      "bytes": 11294,
+      "sha256": "2039c0b0c9dc7f8216b46a506d456209cbe5ad89ad530b0a714c0f3854b15848"
+    },
+    {
+      "path": "vulnmgmt/agent2_source_ids.py",
+      "bytes": 2867,
+      "sha256": "bc1714ea04951cb603b54a9016033bfd6fd34da23612ed435030ba142e3228b4"
+    },
+    {
+      "path": "vulnmgmt/agent2_spans.py",
+      "bytes": 20418,
+      "sha256": "b6e8826968e914a1fe60af0f473c7858c9db76f505439334bab0baef9cd3a29e"
+    },
+    {
+      "path": "vulnmgmt/agent3.py",
+      "bytes": 12197,
+      "sha256": "9858111a5fa156c55c9279e74adcd199d4addc9bf74c0ce016bb417092d112be"
+    },
+    {
+      "path": "vulnmgmt/agent3_campaign.py",
+      "bytes": 9182,
+      "sha256": "06fdec3fb52a747a0264ec6780f5d940d936c3f5b39b799e290c5f609c91cc00"
+    },
+    {
+      "path": "vulnmgmt/agent3_references.py",
+      "bytes": 1877,
+      "sha256": "33bdee7b3850b18bffb77c3846396172062ced6ceebf75f3c234e11b026da524"
+    },
+    {
+      "path": "vulnmgmt/agent4.py",
+      "bytes": 9274,
+      "sha256": "d06e9eeb7b62a3a27d108a553c91fbc2ad5a8eb0b8f3ed224231d67a9738b9c9"
+    },
+    {
+      "path": "vulnmgmt/agent4_campaign.py",
+      "bytes": 10300,
+      "sha256": "230ee356e013600d81fe2d2ed3c5891b182c8b9165dd5f8b6c2f9fc3692775c6"
+    },
+    {
+      "path": "vulnmgmt/agent6.py",
+      "bytes": 13355,
+      "sha256": "4fa9153054e1169e716fc1cce6d1f8cc7553e60dd030a6fa9c0a10382374880b"
+    },
+    {
+      "path": "vulnmgmt/agent6_prose.py",
+      "bytes": 3451,
+      "sha256": "7faa6c02106319e3f53110aa138168b321060ac83bc7df349909ed8e5a8f7e17"
+    },
+    {
+      "path": "vulnmgmt/agent6_references.py",
+      "bytes": 1358,
+      "sha256": "37184fd1ffbbcb266fac50f1ccbaabf0fe9b51e36fafb533d69ee5265331c76c"
+    },
+    {
+      "path": "vulnmgmt/agent7.py",
+      "bytes": 11808,
+      "sha256": "b136bf4d1524681b37b437186b39813bc4cd0df485a1550c7e9359cc668f054c"
+    },
+    {
+      "path": "vulnmgmt/agent7_identity.py",
+      "bytes": 3589,
+      "sha256": "364b23a7108712763917f93cccb0da37f217bfbc57471d54e9a244497897aa6c"
+    },
+    {
+      "path": "vulnmgmt/application.py",
+      "bytes": 16841,
+      "sha256": "dcc2768e8cfca64775bb8b28d4af34478a0bac871cb73d24c75c06380c8384af"
+    },
+    {
+      "path": "vulnmgmt/approved_execution.py",
+      "bytes": 11437,
+      "sha256": "edfed3dc1c506b1ce3f406c7852edd0ddb587b8b917100079f82e39420c08e0b"
+    },
+    {
+      "path": "vulnmgmt/approved_metrics.py",
+      "bytes": 12175,
+      "sha256": "2fad33f70dc94f6fd1b7d26b5886ac1b77b33d0b435b59478f4905fc8540736a"
+    },
+    {
+      "path": "vulnmgmt/approved_ui.py",
+      "bytes": 25981,
+      "sha256": "022f5b87d7fa046dd59a3f0e9deb43f13633ff7c2dd2727e9658aea47b693913"
+    },
+    {
+      "path": "vulnmgmt/approved_upload_feedback.py",
+      "bytes": 2198,
+      "sha256": "fd5e5278d205d5b74480726567c80950f86842713ec234e72abf550e39eec611"
+    },
+    {
+      "path": "vulnmgmt/approved_uploads.py",
+      "bytes": 860,
+      "sha256": "8cf980afde004d941efdacc258158bfbfc8aaeb8247e8a00e3c78397bf1fd360"
+    },
+    {
+      "path": "vulnmgmt/assessment_actions.py",
+      "bytes": 1476,
+      "sha256": "8aeb07ac710def04d7c8521d5ebb14228928b66ee9296d46c5cd5d1a498d0e79"
+    },
+    {
+      "path": "vulnmgmt/assessment_ui.py",
+      "bytes": 42383,
+      "sha256": "02826a5df5be03c355018adf1d9172d0d587f88e18df506019dd474aee709466"
+    },
+    {
+      "path": "vulnmgmt/batching_contracts.py",
+      "bytes": 5449,
+      "sha256": "8556ec21c06b3e6bd46ee5996650ac7c37d9dd4bc84e73e24e335984458757b6"
+    },
+    {
+      "path": "vulnmgmt/batching_evidence.py",
+      "bytes": 21343,
+      "sha256": "6323b4dd54f6c5ee2a8d83dd0fd3d8ce2b1fd1630a2e8f5cb4262c0a4b5888e3"
+    },
+    {
+      "path": "vulnmgmt/batching_ui.py",
+      "bytes": 9517,
+      "sha256": "a4071f1d3b22600126fe3e39232823ac5e509e0a780ae23a9433fb7e95d1de83"
+    },
+    {
+      "path": "vulnmgmt/contracts.py",
+      "bytes": 5893,
+      "sha256": "97cbf8913c6e8df88b6da2d772157c119dd1f7305040b8aeb0454925ebc83ef8"
+    },
+    {
+      "path": "vulnmgmt/credentials.py",
+      "bytes": 8039,
+      "sha256": "3904e683dffa8acdfd103a10d51bb99f27dc87a8f27fcf746b516c85fb0cad6a"
+    },
+    {
+      "path": "vulnmgmt/dashboard_demo.py",
+      "bytes": 3107,
+      "sha256": "1e5eb4d320cb2cc6cb2b7f93c7194c998065b7dee497e17f5fa4b7577cbffca3"
+    },
+    {
+      "path": "vulnmgmt/dashboard_queries.py",
+      "bytes": 9209,
+      "sha256": "7626908c7ab4e4c65ad4bbb646ab6a36805f19b11870d31189b838032c8a684d"
+    },
+    {
+      "path": "vulnmgmt/dashboard_service.py",
+      "bytes": 18803,
+      "sha256": "55beecadd47599638c7c27ff1414e38a2a47c67a31b7613b8e1566ac59a45516"
+    },
+    {
+      "path": "vulnmgmt/database.py",
+      "bytes": 3872,
+      "sha256": "815ed2d3d4490881b7960b73f79bb261f2b783bb04a3087c37bfe0d891bc789b"
+    },
+    {
+      "path": "vulnmgmt/demo.py",
+      "bytes": 2066,
+      "sha256": "4ef4570bec8eb75e47e6718185b45ddf61396a71a55c2f5359f462d5d540d27f"
+    },
+    {
+      "path": "vulnmgmt/demo_manager.py",
+      "bytes": 18349,
+      "sha256": "080f3dabc2901ed4a2aacdb4834c72c8c17bc34bf1412786a925a0776cdb1bf5"
+    },
+    {
+      "path": "vulnmgmt/demo_readiness.py",
+      "bytes": 3031,
+      "sha256": "e67ad2650273efcfef6d0310babf81cc315cd4ca65862c230c0cc59a135b6ce4"
+    },
+    {
+      "path": "vulnmgmt/drafting_contracts.py",
+      "bytes": 2717,
+      "sha256": "f8cf0e0d882b85e9a78040fdd263d88f8d94e799083bbf330bee03a053c46baf"
+    },
+    {
+      "path": "vulnmgmt/drafting_evidence.py",
+      "bytes": 15364,
+      "sha256": "51c003357ef56a05c3a55540439940c5ab605e2f1c4e16ce56a2cd1eb2eeba67"
+    },
+    {
+      "path": "vulnmgmt/drafting_ui.py",
+      "bytes": 7789,
+      "sha256": "f61e39c93efdee2863d278f4e01241cd78f7a4299b7163acece727ffc7d9c3d7"
+    },
+    {
+      "path": "vulnmgmt/enrichment.py",
+      "bytes": 19561,
+      "sha256": "53f2fdeb6ff8d4b572c2cc8a3c996e2c9d17cc2fde05b36b80a524b09b0efdcc"
+    },
+    {
+      "path": "vulnmgmt/enrichment_demo.py",
+      "bytes": 3909,
+      "sha256": "a93bb98baedb2798625d74eabf29595d5388e087342ab0f77ea82614b07d987b"
+    },
+    {
+      "path": "vulnmgmt/enrichment_evidence.py",
+      "bytes": 11421,
+      "sha256": "4dfbf0efc2fe9a9cf70752d9235b1e3f7fa98cbcc1c34112ca9f3f16f8ccc6dc"
+    },
+    {
+      "path": "vulnmgmt/fixture_builder.py",
+      "bytes": 7559,
+      "sha256": "7f4a167511e3b4a0a75acca13b81627427aac23f25db7910b489a9aa56ac9c75"
+    },
+    {
+      "path": "vulnmgmt/guided_demo.py",
+      "bytes": 7635,
+      "sha256": "84422d6a7b572f53e7eb8ec7b685125c8de755a452a87c47a27f5b57b7a6781c"
+    },
+    {
+      "path": "vulnmgmt/historical_dashboard.py",
+      "bytes": 1715,
+      "sha256": "a6135289a804b20e4e4814eb8ca435997ca5cad35c809a019d1868c53ee9837a"
+    },
+    {
+      "path": "vulnmgmt/lifecycle.py",
+      "bytes": 67219,
+      "sha256": "c802c40b4681b11a4283987ebb3ee957511d03c1ed48f548b2e804f675d96d46"
+    },
+    {
+      "path": "vulnmgmt/lifecycle_contracts.py",
+      "bytes": 1406,
+      "sha256": "01faaf30a52b58e7fab3e16131ce822c206a2cff3a00b3cd5d2d1ca66d98108e"
+    },
+    {
+      "path": "vulnmgmt/lifecycle_demo.py",
+      "bytes": 12058,
+      "sha256": "7d080224471e0b5343ee030d42d206a92e039f0026b0d929499058bf34987a7d"
+    },
+    {
+      "path": "vulnmgmt/live_campaign.py",
+      "bytes": 4440,
+      "sha256": "378dcfcde58ca6ccf764b369861c9f1e2129c649eab2945c9af897e7d7714375"
+    },
+    {
+      "path": "vulnmgmt/live_contracts.py",
+      "bytes": 7788,
+      "sha256": "26abca183ec5ae59abad5b26863ec538c2af0aff3c7829ec9db6f974456f248e"
+    },
+    {
+      "path": "vulnmgmt/live_evidence.py",
+      "bytes": 10869,
+      "sha256": "c6f89880856553c8b97791c6876ff796e4e9a4c4041e9728d50e3bcc42db444a"
+    },
+    {
+      "path": "vulnmgmt/live_research.py",
+      "bytes": 24115,
+      "sha256": "5d786ad152997b48b3c45663880c4cf3e40766d745425a6b67da329b49b62318"
+    },
+    {
+      "path": "vulnmgmt/live_ui.py",
+      "bytes": 9842,
+      "sha256": "c7a141470ee4d89e973511beed5e580c27483a4a07f033f6e500a4d24ce00136"
+    },
+    {
+      "path": "vulnmgmt/live_ui_policy.py",
+      "bytes": 780,
+      "sha256": "3bfa5fd72fb0e2ac536aa7f8de56530fa0503dd94c052abc7081c44089fb98e1"
+    },
+    {
+      "path": "vulnmgmt/local_security.py",
+      "bytes": 3711,
+      "sha256": "7b7dfcc8cc5972563d63759be00f0101dbf72557500622302a7dff4d50331763"
+    },
+    {
+      "path": "vulnmgmt/m7_budget.py",
+      "bytes": 25145,
+      "sha256": "56bba519ddbad9b611865f447a2800590da5ab61c69fcdd7f1e322d8e5f8ee6b"
+    },
+    {
+      "path": "vulnmgmt/m7_campaign.py",
+      "bytes": 14222,
+      "sha256": "dec3746db12d629b5f295a3a5089bd315d453d198f56c2af4cb829ee0aa2ba0c"
+    },
+    {
+      "path": "vulnmgmt/migrations/__init__.py",
+      "bytes": 52,
+      "sha256": "49e71a26e7e9336a38a497c229018c49ac3a5fc4d36d0d4212ae0756011495d2"
+    },
+    {
+      "path": "vulnmgmt/migrations/v0001.py",
+      "bytes": 23823,
+      "sha256": "16f544f2bbce023b79d611bce940ac53971ecd62e84fa55a685b5e2a3c342df1"
+    },
+    {
+      "path": "vulnmgmt/migrations/v0002.py",
+      "bytes": 3898,
+      "sha256": "ee400df49b5dbb8035a3dbd71350280cdec38a98466eeecfb56360fef58a9440"
+    },
+    {
+      "path": "vulnmgmt/migrations/v0003.py",
+      "bytes": 5930,
+      "sha256": "8c1231646f47424d18ec6ca957bf13ab29bdf15df03534dcb4ac0fd3a88b611c"
+    },
+    {
+      "path": "vulnmgmt/orchestration_budget.py",
+      "bytes": 6313,
+      "sha256": "41e5d5f178668985fd02430f5589a9497b2cfe76e7b1e3625e1d55d2553ffdcf"
+    },
+    {
+      "path": "vulnmgmt/orchestration_ui.py",
+      "bytes": 9196,
+      "sha256": "9b53d05de683ba9e22f1d3e8c5a814ba0dda49c207b18e801b2dad4a199370a9"
+    },
+    {
+      "path": "vulnmgmt/reasoning.py",
+      "bytes": 1990,
+      "sha256": "c85e67223029a7c75e2ea0874f0688c3742fdc5e648d288bc8507afe1edddd30"
+    },
+    {
+      "path": "vulnmgmt/register.py",
+      "bytes": 8711,
+      "sha256": "99a5a9010bb2bacce91087984f5d8fec93b3e3e8965c77f420fbbc156dd0bfa7"
+    },
+    {
+      "path": "vulnmgmt/replay_builder.py",
+      "bytes": 6374,
+      "sha256": "fa8e5330239be96e39889bf91d0bbdaf415f6791b7431a1e7f5692e2942735a4"
+    },
+    {
+      "path": "vulnmgmt/reply_contracts.py",
+      "bytes": 2192,
+      "sha256": "e1ab9604e0d3ab4b62d1b7b2e69b8f04350851f7f1629117650bc3076fa9dbe6"
+    },
+    {
+      "path": "vulnmgmt/reply_cycle.py",
+      "bytes": 3300,
+      "sha256": "6bb74e7b27aeb7d2c08101e6f2b2f27de1a7282991c7f9bfbe60869ad6ccc1f5"
+    },
+    {
+      "path": "vulnmgmt/reply_evidence.py",
+      "bytes": 8887,
+      "sha256": "1f085f80f525e448d601e1a02d2837a4a658f17ee7a6e0e4016225008d60428d"
+    },
+    {
+      "path": "vulnmgmt/research_contracts.py",
+      "bytes": 2579,
+      "sha256": "eb8ed40b5a8a6d35b16317e8ea9e8f80abbe32629dbfff08c452deb67e435bf9"
+    },
+    {
+      "path": "vulnmgmt/research_replay.py",
+      "bytes": 3456,
+      "sha256": "a82b245d5eae331133ea7b32b85eee0503094fb7a55ea4b46e852336e687f43f"
+    },
+    {
+      "path": "vulnmgmt/research_sources.py",
+      "bytes": 7021,
+      "sha256": "f58d7bed322ac131cdf13a7f936250f135e210a8497c7263208d8c5122bb6f22"
+    },
+    {
+      "path": "vulnmgmt/resolver_portal.py",
+      "bytes": 8966,
+      "sha256": "cd9a5ccdf7b32a0c45198654cbdd7743a8cbb2ee67584af487d9034d420c4637"
+    },
+    {
+      "path": "vulnmgmt/resolver_status_claim.py",
+      "bytes": 9373,
+      "sha256": "ab9b4aedf37216ef307581199b3545e8fdcab0131ecc9a4f770dbcc56593c5e6"
+    },
+    {
+      "path": "vulnmgmt/runtime_binding.py",
+      "bytes": 7327,
+      "sha256": "1ba0b9fa5b3f8d88ccf8dcca41df83e587af7348f519605b85ef275e478dc5a2"
+    },
+    {
+      "path": "vulnmgmt/scanners.py",
+      "bytes": 12732,
+      "sha256": "0919290bb0ad56f6210573685074e3267511233c8f6edabc6841d2952bb770ac"
+    },
+    {
+      "path": "vulnmgmt/scenario.py",
+      "bytes": 6424,
+      "sha256": "894a3f8273fd0972d408b4926a7d3356f53b0eac98507b0e4e02ca2a63898b31"
+    },
+    {
+      "path": "vulnmgmt/services.py",
+      "bytes": 13974,
+      "sha256": "1bc9433a4f704c19a877c4229f65fab2fcc44b64884751b91091af3ed7d2a25d"
+    },
+    {
+      "path": "vulnmgmt/sla.py",
+      "bytes": 2116,
+      "sha256": "0255b3b907112c52cfa800b50fd7621766285c1e472e2c351b090dd1d0c3c388"
+    },
+    {
+      "path": "vulnmgmt/soc_queries.py",
+      "bytes": 11170,
+      "sha256": "1311b5c1d62ab1795be827b060c13149d08c463a5b9e6e74ca155e7d628601ae"
+    },
+    {
+      "path": "vulnmgmt/soc_views.py",
+      "bytes": 22600,
+      "sha256": "f7658f823afe6f4c3cc1aadc085b8dd25fe13b54a422e853c6ebaad7f76044d0"
+    },
+    {
+      "path": "vulnmgmt/threat_contracts.py",
+      "bytes": 2400,
+      "sha256": "19e9d560007ed9104fab0110b73c3f79385042b001fb23479766de8844ae1df8"
+    },
+    {
+      "path": "vulnmgmt/threat_evidence.py",
+      "bytes": 11882,
+      "sha256": "37f9fb00326313a79a03caa17015ee3a91f8e4276e46d8f7f33795dc491dc6f0"
+    },
+    {
+      "path": "vulnmgmt/threat_ui.py",
+      "bytes": 7043,
+      "sha256": "d1d795bed76542f28cd505abf5b565612b3c275f55b71ca116b874113f446f8a"
+    },
+    {
+      "path": "vulnmgmt/two_resolver_demo.py",
+      "bytes": 5633,
+      "sha256": "94aa29ff0a69963c92d7eea5ea110f35d36eddfa14ea274a7e630b7cf2445284"
+    },
+    {
+      "path": "vulnmgmt/ui.py",
+      "bytes": 56720,
+      "sha256": "20ab4df5912fa72f8f2fc794ddc183065ba5018512ae53fe19a3e46a25abcc51"
+    },
+    {
+      "path": "vulnmgmt/ui_components.py",
+      "bytes": 5332,
+      "sha256": "62915a4c5d4c6f17ccc94a4248c4dbb52fe9133292ed4a3f25d016c86a44a739"
+    },
+    {
+      "path": "vulnmgmt/uploads.py",
+      "bytes": 6571,
+      "sha256": "fa60d975f138e7695bb46b42f8a95af2808e6cf0667d4fcb74df22a9c4c64e8b"
+    },
+    {
+      "path": "vulnmgmt/workflow_control.py",
+      "bytes": 3827,
+      "sha256": "3187cccd245a9b877a49cedddfb7e3260c80e1fd9246217aa753dc97bd158907"
+    },
+    {
+      "path": "vulnmgmt/workflow_ui.py",
+      "bytes": 39533,
+      "sha256": "5c3cd2c4ae24d3e8b2145b2825e30b1d487d48117ca6ba8225c761a4ac0b2977"
+    }
+  ]
+}

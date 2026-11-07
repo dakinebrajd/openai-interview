@@ -1,0 +1,70 @@
+{
+  "schema_version": "1",
+  "label": "SYNTHETIC TWO RESOLVER DEMO",
+  "owners": [
+    {
+      "key": "demo-owner-a",
+      "name": "Synthetic owner A",
+      "email": "demo-owner-a@example.invalid"
+    },
+    {
+      "key": "demo-owner-b",
+      "name": "Synthetic owner B",
+      "email": "demo-owner-b@example.invalid"
+    }
+  ],
+  "resolver_groups": [
+    {
+      "key": "DEMO-LINUX-OPS",
+      "name": "DEMO-LINUX-OPS",
+      "email": "demo-linux-ops@example.invalid"
+    },
+    {
+      "key": "DEMO-APP-OPS",
+      "name": "DEMO-APP-OPS",
+      "email": "demo-app-ops@example.invalid"
+    }
+  ],
+  "assets": [
+    {
+      "key": "DEMO-LNX-A",
+      "hostname": "demo-lnx-a.example.invalid",
+      "criticality": "High",
+      "owner_key": "demo-owner-a",
+      "resolver_group": "DEMO-LINUX-OPS",
+      "type": "Linux server",
+      "aliases": {
+        "Tenable": "tenable-DEMO-LNX-A",
+        "Defender": "defender-DEMO-LNX-A"
+      },
+      "components": [
+        {
+          "key": "openssl-upstream-primary",
+          "product": "Synthetic upstream OpenSSL assessment target",
+          "installed_version": null,
+          "location": "synthetic://DEMO-LNX-A/openssl"
+        }
+      ]
+    },
+    {
+      "key": "DEMO-LNX-B",
+      "hostname": "demo-lnx-b.example.invalid",
+      "criticality": "High",
+      "owner_key": "demo-owner-b",
+      "resolver_group": "DEMO-APP-OPS",
+      "type": "Linux server",
+      "aliases": {
+        "Tenable": "tenable-DEMO-LNX-B",
+        "Defender": "defender-DEMO-LNX-B"
+      },
+      "components": [
+        {
+          "key": "openssl-upstream-primary",
+          "product": "Synthetic upstream OpenSSL assessment target",
+          "installed_version": null,
+          "location": "synthetic://DEMO-LNX-B/openssl"
+        }
+      ]
+    }
+  ]
+}

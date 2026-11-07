@@ -1,0 +1,10 @@
+# M1 foundation and M3 SDK definitions; live model calls remain disabled.
+# Regenerate requirements.lock after deliberately reviewing dependency updates.
+pydantic==2.14.2
+SQLAlchemy==2.1.7
+pytest==9.2.0
+openai-agents==0.24.0
+
+streamlit==1.66.1
+# Direct chart API used by the redesigned UI; already present in the M5 wheel lock.
+altair==6.3.0

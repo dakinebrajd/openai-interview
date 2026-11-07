@@ -1,0 +1,12 @@
+{
+  "version": "explicit-discovery-v3",
+  "classification": "SYNTHETIC ONLY",
+  "inventory": "../v2/inventory.json",
+  "inventory_sha256": "e76c2f71366fcc11fe2e8792cb361a9711bf99e53d2b0003b112a42c4febfc2d",
+  "files": {
+    "tenable-a.json": "ad18582013b3c948235bd22b81d4498958a7d3e2c42c8cbdf14d1862c8733602",
+    "tenable-b.json": "c755038f2002f7715100e03364c5e5c13b1f05bc94f6fff27e11ad955d3b6a18",
+    "defender-a.json": "a9189eb17fab7b41d9dd3bd8acbd43a4b2643d5296f969e1210a270017583fbf",
+    "defender-b.json": "2e1933027336182a6cbb11fb897a85763b98617b73215562285e4fc338ae19c2"
+  }
+}

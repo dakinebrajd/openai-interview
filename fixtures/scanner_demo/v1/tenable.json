@@ -1,0 +1,439 @@
+{
+  "exported_at": "2026-10-20T12:00:00Z",
+  "findings": [
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-001",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-001",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-002",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-002",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-003",
+      "hostname": "win-srv-003.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-003",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-004",
+      "hostname": "win-srv-004.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-004",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-005",
+      "hostname": "win-srv-005.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-005",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-006",
+      "hostname": "win-srv-006.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-006",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-007",
+      "hostname": "win-srv-007.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-007",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-008",
+      "hostname": "win-srv-008.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-008",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2021-4034"
+      ],
+      "host_uuid": "tenable-LNX-SRV-001",
+      "hostname": "lnx-srv-001.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-009",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2024-6387"
+      ],
+      "host_uuid": "tenable-LNX-SRV-002",
+      "hostname": "lnx-srv-002.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-010",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2022-3786"
+      ],
+      "host_uuid": "tenable-LNX-SRV-003",
+      "hostname": "lnx-srv-003.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-011",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2023-38408"
+      ],
+      "host_uuid": "tenable-LNX-SRV-004",
+      "hostname": "lnx-srv-004.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-012",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2022-3602"
+      ],
+      "host_uuid": "tenable-LNX-SRV-005",
+      "hostname": "lnx-srv-005.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-013",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2021-4034"
+      ],
+      "host_uuid": "tenable-LNX-SRV-006",
+      "hostname": "lnx-srv-006.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-014",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2024-6387"
+      ],
+      "host_uuid": "tenable-LNX-SRV-007",
+      "hostname": "lnx-srv-007.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-015",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "linux-assessment",
+      "cve": [
+        "CVE-2022-3786"
+      ],
+      "host_uuid": "tenable-LNX-SRV-008",
+      "hostname": "lnx-srv-008.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-016",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2023-38545"
+      ],
+      "host_uuid": "tenable-WS-001",
+      "hostname": "ws-001.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-017",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WS-002",
+      "hostname": "ws-002.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-018",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2023-23397"
+      ],
+      "host_uuid": "tenable-WS-003",
+      "hostname": "ws-003.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-019",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2023-38545"
+      ],
+      "host_uuid": "tenable-WS-004",
+      "hostname": "ws-004.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-020",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WS-005",
+      "hostname": "ws-005.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-021",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2023-23397"
+      ],
+      "host_uuid": "tenable-WS-006",
+      "hostname": "ws-006.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-022",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2023-38545"
+      ],
+      "host_uuid": "tenable-WS-007",
+      "hostname": "ws-007.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-023",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "desktop-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WS-008",
+      "hostname": "ws-008.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-024",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-44228"
+      ],
+      "host_uuid": "tenable-WEB-001",
+      "hostname": "web-001.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-025",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-45105"
+      ],
+      "host_uuid": "tenable-WEB-002",
+      "hostname": "web-002.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-026",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-44228"
+      ],
+      "host_uuid": "tenable-WEB-003",
+      "hostname": "web-003.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-027",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-45105"
+      ],
+      "host_uuid": "tenable-WEB-004",
+      "hostname": "web-004.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-028",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-44228"
+      ],
+      "host_uuid": "tenable-WEB-005",
+      "hostname": "web-005.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-029",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "java-assessment",
+      "cve": [
+        "CVE-2021-45105"
+      ],
+      "host_uuid": "tenable-WEB-006",
+      "hostname": "web-006.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-030",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 4
+    },
+    {
+      "component_key": "java-assessment-second-instance",
+      "cve": [
+        "CVE-2021-44228"
+      ],
+      "host_uuid": "tenable-WEB-001",
+      "hostname": "web-001.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "second-instance",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-001",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-001",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": "tenable-WIN-SRV-001",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "plugin-001",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "not-a-cve"
+      ],
+      "host_uuid": "tenable-WIN-SRV-001",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "bad-cve",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "host_uuid": "tenable-WIN-SRV-001",
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "missing-cve",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    },
+    {
+      "component_key": "windows-assessment",
+      "cve": [
+        "CVE-2021-34527"
+      ],
+      "host_uuid": null,
+      "hostname": "shared-name.agency.example.invalid",
+      "last_seen": "2026-10-18T09:00:00Z",
+      "plugin_id": "ambiguous-host",
+      "scanner_text": "SYNTHETIC observation; version/applicability unverified",
+      "severity": 3
+    }
+  ],
+  "format": "synthetic-tenable",
+  "format_version": "1",
+  "scan_id": "tenable-scan-v1",
+  "synthetic": true,
+  "tenant": "agency-demo"
+}

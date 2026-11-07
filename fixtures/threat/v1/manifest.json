@@ -1,0 +1,37 @@
+{
+  "version": "agent4-replay-v1",
+  "origin": "human_curated_source_backed_replay",
+  "model_calls_recorded": 0,
+  "sources": [
+    {
+      "path": "fixtures/enrichment/v1/kev-cisa.json",
+      "sha256": "a1179458106077795df33a9c150acd40c0b45d18e3240867f27dca7d6353ad91"
+    },
+    {
+      "path": "fixtures/enrichment/v1/kev-mirror.json",
+      "sha256": "9643b94ed9fb13c13970cda3761706b515dbed4ec56b0232dd336a24869f085b"
+    },
+    {
+      "path": "fixtures/enrichment/v1/epss.json",
+      "sha256": "d1361a0b899c6e3486902c745af2665d34017faae4c8396d40a2fa9404843081"
+    },
+    {
+      "path": "fixtures/enrichment/v1/sector-log4j.json",
+      "sha256": "e93a4ff68a02c49b7b476f8f65dab915c99fcfa412c12c535d4cad54fb977d38"
+    },
+    {
+      "path": "fixtures/threat/v1/cisa-federal-log4j.json",
+      "sha256": "3c55b820d623bbed38c2a07bbd566f9fa19c53cac22998d00485ebf1a57b8354"
+    }
+  ],
+  "report_facts": [
+    {
+      "cve_id": "CVE-2021-44228",
+      "content_hash": "6e83073275a024c68206ca2d0659bc7b59a2b325709a39d3d9830fcd9d28f6b3",
+      "topic": "exploitation",
+      "stance": "Confirmed",
+      "excerpt": "have continued to exploit CVE-2021-44228 (Log4Shell)",
+      "provenance": "source_bound_curation_requires_analyst_review"
+    }
+  ]
+}

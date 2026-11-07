@@ -1,0 +1,19 @@
+{
+  "scope": "Manifest-listed source, synthetic/captured-public fixtures, tests and documentation only. No secret store, environment values or database opened.",
+  "unresolved_findings": [],
+  "resolved_findings": [
+    {
+      "path": "fixtures/enrichment/v1/sector-log4j.json",
+      "category": "Windows user-path-shaped public source text",
+      "resolution": "Sanitized only in package variant; body/content/file hashes updated"
+    },
+    {
+      "path": "fixtures/workflow_demo/v2/enrichment/sector-log4j.json",
+      "category": "Windows user-path-shaped public source text",
+      "resolution": "Sanitized only in package variant; body/content/file hashes updated"
+    }
+  ],
+  "parsed_python_files": 96,
+  "original_source_hashes_reverified": 174,
+  "limitations": "Pattern/filename audit is bounded, not a guarantee of absence of all secrets or private data."
+}

@@ -1,0 +1,30 @@
+{
+  "exclusions": [
+    "No verified asset applicability",
+    "No patches, remediation equivalence or exploitation claims"
+  ],
+  "expected": {
+    "assets": 30,
+    "cve_identifiers": 12,
+    "duplicates_consolidated": 12,
+    "exact_duplicate_rows": 2,
+    "normalized_records": 61,
+    "quarantined_rows": 6,
+    "raw_findings": 79,
+    "unresolved_identity_conflicts": 3,
+    "valid_rows": 73
+  },
+  "files": {
+    "cve_sources.json": "e5b46f0de0fadaccf70b6bd5eb76c719c2dae283e85cc8f6f61ce64b45dcaea5",
+    "defender.json": "3d930c2d134bbfb72a18bca42d3bb9c232700ee34dfebc48f67465c0b02b4a79",
+    "inventory.json": "c7222ca5f6b60a29be33ccb7430492abe6b82c9f4d14031df71c70a6d07aebfc",
+    "tenable.json": "80ac84b7ba7f98d424fd1873efcb7c12cb75e3513b15ab74e839071a82c0d0a2",
+    "tenable_repeat.json": "80ac84b7ba7f98d424fd1873efcb7c12cb75e3513b15ab74e839071a82c0d0a2"
+  },
+  "fixed_clock": "2026-10-20T12:00:00Z",
+  "label": "SYNTHETIC / offline deterministic ingestion",
+  "scenario": "state-agency-scanner-demo",
+  "schema_version": "1",
+  "seed": 1,
+  "version": 1
+}

@@ -1,0 +1,23 @@
+{
+  "id": "cisa-federal-log4j",
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-320a",
+  "final_url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-320a",
+  "kind": "Sector",
+  "fetch_status": "Failed",
+  "retrieved_at": "2026-11-04T18:14:26.445595Z",
+  "expires_at": "2026-11-04T18:14:26.445595Z",
+  "content_sha256": null,
+  "body": "",
+  "attempts": [
+    {
+      "attempt": 1,
+      "attempted_at": "2026-11-04T18:14:26.445595Z",
+      "outcome": "Failed",
+      "error": "HTTP Error 403: Forbidden",
+      "http_status": 403
+    }
+  ],
+  "error": "HTTP Error 403: Forbidden",
+  "confidence": "unavailable",
+  "published_at": null
+}

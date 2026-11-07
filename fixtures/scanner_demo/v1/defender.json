@@ -1,0 +1,440 @@
+{
+  "exportedAt": "2026-10-20T12:00:00Z",
+  "format": "synthetic-defender",
+  "format_version": "1",
+  "scanId": "defender-scan-v1",
+  "synthetic": true,
+  "tenantId": "agency-demo",
+  "value": [
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-001",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "finding-001",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-002",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "finding-002",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-003",
+      "deviceName": "win-srv-003.agency.example.invalid",
+      "findingId": "finding-003",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-004",
+      "deviceName": "win-srv-004.agency.example.invalid",
+      "findingId": "finding-004",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-005",
+      "deviceName": "win-srv-005.agency.example.invalid",
+      "findingId": "finding-005",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-006",
+      "deviceName": "win-srv-006.agency.example.invalid",
+      "findingId": "finding-006",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-007",
+      "deviceName": "win-srv-007.agency.example.invalid",
+      "findingId": "finding-007",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-008",
+      "deviceName": "win-srv-008.agency.example.invalid",
+      "findingId": "finding-008",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-38408",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-001",
+      "deviceName": "lnx-srv-001.agency.example.invalid",
+      "findingId": "finding-009",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2022-3602",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-002",
+      "deviceName": "lnx-srv-002.agency.example.invalid",
+      "findingId": "finding-010",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2021-4034",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-003",
+      "deviceName": "lnx-srv-003.agency.example.invalid",
+      "findingId": "finding-011",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2024-6387",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-004",
+      "deviceName": "lnx-srv-004.agency.example.invalid",
+      "findingId": "finding-012",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2022-3786",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-005",
+      "deviceName": "lnx-srv-005.agency.example.invalid",
+      "findingId": "finding-013",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2023-38408",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-006",
+      "deviceName": "lnx-srv-006.agency.example.invalid",
+      "findingId": "finding-014",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2022-3602",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-007",
+      "deviceName": "lnx-srv-007.agency.example.invalid",
+      "findingId": "finding-015",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2021-4034",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-008",
+      "deviceName": "lnx-srv-008.agency.example.invalid",
+      "findingId": "finding-016",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-001",
+      "deviceName": "ws-001.agency.example.invalid",
+      "findingId": "finding-017",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2023-38545",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-002",
+      "deviceName": "ws-002.agency.example.invalid",
+      "findingId": "finding-018",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-003",
+      "deviceName": "ws-003.agency.example.invalid",
+      "findingId": "finding-019",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-004",
+      "deviceName": "ws-004.agency.example.invalid",
+      "findingId": "finding-020",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2023-38545",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-005",
+      "deviceName": "ws-005.agency.example.invalid",
+      "findingId": "finding-021",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-006",
+      "deviceName": "ws-006.agency.example.invalid",
+      "findingId": "finding-022",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-007",
+      "deviceName": "ws-007.agency.example.invalid",
+      "findingId": "finding-023",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2023-38545",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WS-008",
+      "deviceName": "ws-008.agency.example.invalid",
+      "findingId": "finding-024",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "desktop-assessment"
+    },
+    {
+      "cveId": "CVE-2021-45046",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-001",
+      "deviceName": "web-001.agency.example.invalid",
+      "findingId": "finding-025",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-44832",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-002",
+      "deviceName": "web-002.agency.example.invalid",
+      "findingId": "finding-026",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-45046",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-003",
+      "deviceName": "web-003.agency.example.invalid",
+      "findingId": "finding-027",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-44832",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-004",
+      "deviceName": "web-004.agency.example.invalid",
+      "findingId": "finding-028",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-45046",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-005",
+      "deviceName": "web-005.agency.example.invalid",
+      "findingId": "finding-029",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-44832",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WEB-006",
+      "deviceName": "web-006.agency.example.invalid",
+      "findingId": "finding-030",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "High",
+      "softwareKey": "java-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-001",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "cross-scanner-0",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-002",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "cross-scanner-1",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-003",
+      "deviceName": "win-srv-003.agency.example.invalid",
+      "findingId": "cross-scanner-2",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-004",
+      "deviceName": "win-srv-004.agency.example.invalid",
+      "findingId": "cross-scanner-3",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-005",
+      "deviceName": "win-srv-005.agency.example.invalid",
+      "findingId": "cross-scanner-4",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-006",
+      "deviceName": "win-srv-006.agency.example.invalid",
+      "findingId": "cross-scanner-5",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-007",
+      "deviceName": "win-srv-007.agency.example.invalid",
+      "findingId": "cross-scanner-6",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-34527",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-008",
+      "deviceName": "win-srv-008.agency.example.invalid",
+      "findingId": "cross-scanner-7",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2021-4034",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-001",
+      "deviceName": "lnx-srv-001.agency.example.invalid",
+      "findingId": "cross-scanner-8",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2024-6387",
+      "detectedAt": "2026-10-20T10:00:00Z",
+      "deviceId": "defender-LNX-SRV-002",
+      "deviceName": "lnx-srv-002.agency.example.invalid",
+      "findingId": "cross-scanner-9",
+      "scannerText": "SYNTHETIC overlapping observation",
+      "severity": "Low",
+      "softwareKey": "linux-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "unmapped-device",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "unknown-device",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "2026-10-19T10:00:00Z",
+      "deviceId": "defender-WIN-SRV-001",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "missing-component",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "unmapped-instance"
+    },
+    {
+      "cveId": "CVE-2023-23397",
+      "detectedAt": "not-a-timestamp",
+      "deviceId": "defender-WIN-SRV-001",
+      "deviceName": "shared-name.agency.example.invalid",
+      "findingId": "bad-time",
+      "scannerText": "SYNTHETIC observation; no patch or targeting assertion",
+      "severity": "Medium",
+      "softwareKey": "windows-assessment"
+    }
+  ]
+}
